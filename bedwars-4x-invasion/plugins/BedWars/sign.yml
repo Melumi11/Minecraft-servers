@@ -1,0 +1,19 @@
+sign:
+- name: invasion
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 0.0
+    y: 141.0
+    z: 4.0
+    pitch: 0.0
+    yaw: 0.0
+- name: invasion
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 0.0
+    y: 119.0
+    z: -5.0
+    pitch: 0.0
+    yaw: 0.0

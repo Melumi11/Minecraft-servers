@@ -1,0 +1,44 @@
+#|||||  ||||| |||||| |||||| ||||| |||||   ||        ||     |||||
+#||  || ||      ||     ||   ||    ||  ||  ||       ||||    ||  ||
+#|||||  ||||    ||     ||   ||||  |||||   ||      ||  ||   |||||
+#||  || ||      ||     ||   ||    || ||   ||      ||||||   ||  ||
+#|||||  |||||   ||     ||   ||||| ||  ||  |||||  ||    ||  |||||
+#
+#
+#Pillars of the Fortune, a BetterLab Production!
+#Edit settings & much more in our setting files!
+#
+#Use .schematics to load maps & set certain schematic with schematicname.yml files!
+#3 Schematics are given by us! You can import as many schematics as you want!
+#
+#PlaceHolders:
+#%betterlab_wins% - Player Wins
+#%betterlab_winrate% - Player Win Rate (Wins/GamesJoined*100)
+#%betterlab_gamesjoined% - Player Games Joined
+#%betterlab_kills% - Player Kills
+#%betterlab_gamedisplayname% - Return Games display name!
+
+#Schematics can be edited in ./Schematics/ folder!
+Schematics:
+  default1:
+    SettingsFile: Default1.yml
+    SchemFile: Default1.schem
+#Menus can be edited in ./Menus/ folder!
+Menus:
+  CustomGUI:
+    File: CustomGUI.yml
+    Command: /customgui
+    Permission: BetterLab.Menus.CustomGUI
+
+#Lobby Settings
+Lobby:
+  World: world
+  SpawnPoint:
+    X: 0
+    Y: 100
+    Z: 0
+  can-player-take-damage: true
+  DisableAdvancements: true
+
+Settings:
+  LangFile: UK_UK.yml

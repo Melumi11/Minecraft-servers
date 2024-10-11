@@ -1,0 +1,121 @@
+#|||||  ||||| |||||| |||||| ||||| |||||   ||        ||     |||||
+#||  || ||      ||     ||   ||    ||  ||  ||       ||||    ||  ||
+#|||||  ||||    ||     ||   ||||  |||||   ||      ||  ||   |||||
+#||  || ||      ||     ||   ||    || ||   ||      ||||||   ||  ||
+#|||||  |||||   ||     ||   ||||| ||  ||  |||||  ||    ||  |||||
+#
+#
+#Pillars of the Fortune, a BetterLab Production!
+#Edit settings & much more in our setting files!
+#
+
+#Placeholder for Game-Display-Name:
+#%betterlab_gamedisplayname%
+#It returns " " When player is NOT in a game!
+
+GameSettings:
+  Game-Display-Name: "&aThe Orginal Game!"
+  Min_Players: 2
+  Max_Players: 8
+  Max_Height: 140 #Y Build Limit Height!
+  Void_Height: 100 #Y Death Height!
+  #Schematic Paste Setting! This paste location is the location where you was standing when using //copy!
+  SchemLoc:
+    X: 0
+    Y: 100
+    Z: 0
+  #Player Death Point:
+  DeathPoint:
+    X: 0
+    Y: 110
+    Z: 0
+    UseGameWorld: true
+    #if this is false, we use the default world from ./plugins/~~/Settings.yml
+
+Settings:
+  RandomItemTime: 7 #In Seconds!
+  GameDuration: 900 #In Seconds!
+  StartGameTime: 10 #In Seconds!
+  BorderCloseTimer: 180 #In Seconds!
+  Border-Size: 100
+
+  #This function is per ./Schematics/~~.yml file!
+  #When adding a block, only this block will be given to the players in the game! Add more blocks to give a random block every x seconds! Use WhiteListedItems: [] to disable the function!
+  WhiteListedItems: [ ]
+  #- STONE
+  #- DIRT
+  #- GRASS_BLOCK
+
+  #This function is per ./Schematics/~~.yml file!
+  #When adding a block, only this block will be blacklisted for the players in the game! Add more blocks to blacklist to NOT get them as a random block every x seconds! Use BlackListedItems: [] to disable the function!
+  BlackListedItems:
+    - BEDROCK
+    - SPAWNER
+    - COMMAND_BLOCK
+    - BARRIER
+    - REPEATING_COMMAND_BLOCK
+    - CHAIN_COMMAND_BLOCK
+    - COMMAND_BLOCK_MINECART
+    - HOPPER_MINECART
+    - CHEST_MINECART
+    - FURNACE_MINECART
+    - TNT_MINECART
+    - COPPER_BLOCK
+    - EXPOSED_COPPER
+    - EXPOSED_COPPER_BULB
+    - WEATHERED_COPPER
+    - OXIDIZED_COPPER
+    - WAXED_COPPER_BLOCK
+    - WAXED_EXPOSED_COPPER
+    - WAXED_WEATHERED_COPPER
+    - WAXED_OXIDIZED_COPPER
+    - WHITE_BED
+    - ORANGE_BED
+    - MAGENTA_BED
+    - LIGHT_BLUE_BED
+    - YELLOW_BED
+    - LIME_BED
+    - PINK_BED
+    - GRAY_BED
+    - LIGHT_GRAY_BED
+    - CYAN_BED
+    - BLUE_BED
+    - BROWN_BED
+    - GREEN_BED
+    - RED_BED
+    - BLACK_BED
+
+  #Player Spawn Locations! add player9: if you have set Max_Players to 9! Etc etc etc...
+  SpawnLocations:
+    player1:
+      x: 19.5
+      y: 130.0
+      z: 0.5
+    player2:
+      x: 13.5
+      y: 130.0
+      z: 13.5
+    player3:
+      x: 0.5
+      y: 130.0
+      z: 19.5
+    player4:
+      x: -13.5
+      y: 130.0
+      z: 13.5
+    player5:
+      x: -19.5
+      y: 130.0
+      z: 0.5
+    player6:
+      x: -13.5
+      y: 130.0
+      z: -13.5
+    player7:
+      x: 0.5
+      y: 130.0
+      z: -19.5
+    player8:
+      x: 13.5
+      y: 130.0
+      z: -13.5

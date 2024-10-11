@@ -1,0 +1,98 @@
+#|||||  ||||| |||||| |||||| ||||| |||||   ||        ||     |||||
+#||  || ||      ||     ||   ||    ||  ||  ||       ||||    ||  ||
+#|||||  ||||    ||     ||   ||||  |||||   ||      ||  ||   |||||
+#||  || ||      ||     ||   ||    || ||   ||      ||||||   ||  ||
+#|||||  |||||   ||     ||   ||||| ||  ||  |||||  ||    ||  |||||
+#
+#
+#Pillars of the Fortune, een BetterLab Productie!
+#Bewerk instellingen en veel meer in onze instellingsbestanden!
+#
+Games:
+  Unknow_GameID: "&cHey! Een spel met {gameid} bestaat niet!"
+  Not_In_Game: "&cHey! Het lijkt erop dat je niet in een spel zit! Doe mee aan een spel met &a/joingame"
+  Player_In_Game: "&cHey! Het lijkt erop dat je al in een spel zit!"
+  Game_Joining: "&aSpel aan het joinen..."
+  Left-Game: "&cYou left the game!"
+  Game_Joined: "&8[&7SpelID: {gameid} &8]&r &a&lPillars of the Fortune &8- &7Je hebt je bij het spel gevoegd!"
+  Game_Players_Needed: "&8[&7SpelID: {gameid} &8]&r &7Huidige spelers: {playersingame} / {maxplayers} &7Spelers nodig om te starten: {minplayers}"
+  Game_Timer_Starting: "&eHet spel begint over {secondsleft} seconden!"
+  Game_canceled: "&cSpel is geannuleerd voor {gameid} vanwege onvoldoende spelers!"
+  Game_Started: "&8[&7SpelID: {gameid} &8]&r &a&lPillars of the Fortune &8- &7Het spel is begonnen!"
+  Game_Ended: "&8[&7SpelID: {gameid} &8]&r &a&lPillars of the Fortune &8- &7{player} &7heeft het spel gewonnen!"
+  Game_Timer: "&eHet spel eindigt over {secondsleft} seconden!"
+  Border_Timer: "&eThe border will close in {secondsleft} seconds!"
+  Game_Tie: "&8[&7SpelID: {gameid}&8]&r &a&lPillars of the Fortune &8- &7Het spel is geëindigd in een gelijkspel!"
+  Force_Start: "&aHet spel geforceerd gestart!"
+  Force_Start_Failed: "&cJe hebt niet genoeg spelers in het spel!"
+
+Errors:
+  No_Game_Spawn_Loc: "&cKan spawnlocatie voor het spel niet laden."
+
+Commands:
+  Console: "&cJe moet een speler zijn om dit commando te gebruiken!"
+  No_Perms: "&cHey! Het lijkt erop dat je geen rechten hebt voor dit commando!"
+  Set_Spawn: "&aSuccessfully set the spawnpoint to: x: {LocX}, y: {LocY}, z: {LocZ}"
+
+
+Addon:
+  DeathMessage: "{player} is gestorven"
+  QuitMSG: "{player} heeft de server verlaten!"
+  JoinMSG: "{player} heeft de server betreden!"
+#Het profielinstellingen-GUI! Bewerk alle berichten makkelijker in deze sectie!
+#Plaathouders die werken in Statistieken:
+#{game_wins} - Spel Overwinningen
+#{games_joined} - Deelgenomen Spellen
+#{win_rate} - Winpercentage
+#{kills} - Kills
+#{setting_deathmessage} - Geeft Ingeschakeld/Uitgeschakeld terug!
+#{setting_joinquitmessage} - Geeft Ingeschakeld/Uitgeschakeld terug!
+#{setting_gamemessage} - Geeft Ingeschakeld/Uitgeschakeld terug!
+
+ProfileSettings:
+  DisplayName: "Profiel Instellingen!"
+  QuitMenu: "&c&lMenu Verlaten"
+  Enabled: "Ingeschakeld"
+  Disabled: "Uitgeschakeld"
+  Stats:
+    Title: "§bProfiel Statistieken"
+    Lores:
+      - "&7---==+==---"
+      - "&7Spel Overwinningen: {game_wins}"
+      - "&7Deelgenomen Spellen: {games_joined}"
+      - "&7Winpercentage: {win_rate}"
+      - "&7Kills: {kills}"
+      - "&7"
+      - "&7---==+==---"
+      - "&7Instelling Doodsberichten: {setting_deathmessage}"
+      - "&7Instelling Betreed/Verlaat Berichten: {setting_joinquitmessage}"
+      - "&7Instelling Spelberichten: {setting_gamemessage}"
+
+  Settings:
+    DeathMessages:
+      Enabled_Title: "§aDoodsberichten! §7(Ingeschakeld)"
+      Disabled_Title: "§cDoodsberichten! §7(Uitgeschakeld)"
+      Enabled_Lores:
+        - "&7Klik om de &cDoodsberichten &7uit te schakelen!"
+        - "&7Huidige status: &aIngeschakeld&7!"
+      Disabled_Lores:
+        - "&7Klik om de &aDoodsberichten &7in te schakelen!"
+        - "&7Huidige status: &cUitgeschakeld&7!"
+    JoinQuitmessages:
+      Enabled_Title: "§aBetreed/Verlaat Berichten! §7(Ingeschakeld)"
+      Disabled_Title: "§cBetreed/Verlaat Berichten! §7(Uitgeschakeld)"
+      Enabled_Lores:
+        - "&7Klik om de &cBetreed/Verlaat Berichten &7uit te schakelen!"
+        - "&7Huidige status: &aIngeschakeld&7!"
+      Disabled_Lores:
+        - "&7Klik om de &aBetreed/Verlaat Berichten &7in te schakelen!"
+        - "&7Huidige status: &cUitgeschakeld&7!"
+    GameMessage:
+      Enabled_Title: "§aSpelberichten! §7(Ingeschakeld)"
+      Disabled_Title: "§cSpelberichten! §7(Uitgeschakeld)"
+      Enabled_Lores:
+        - "&7Klik om de &cSpelberichten &7uit te schakelen!"
+        - "&7Huidige status: &aIngeschakeld&7!"
+      Disabled_Lores:
+        - "&7Klik om de &aSpelberichten &7in te schakelen!"
+        - "&7Huidige status: &cUitgeschakeld&7!"

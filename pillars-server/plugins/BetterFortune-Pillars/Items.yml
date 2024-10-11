@@ -1,0 +1,61 @@
+#|||||  ||||| |||||| |||||| ||||| |||||   ||        ||     |||||
+#||  || ||      ||     ||   ||    ||  ||  ||       ||||    ||  ||
+#|||||  ||||    ||     ||   ||||  |||||   ||      ||  ||   |||||
+#||  || ||      ||     ||   ||    || ||   ||      ||||||   ||  ||
+#|||||  |||||   ||     ||   ||||| ||  ||  |||||  ||    ||  |||||
+#
+#
+#Pillars of the Fortune, a BetterLab Production!
+#Edit settings & much more in our setting files!
+#
+#Items that are given in the player hotbar! Use 0-8 for slots
+
+
+Items:
+  Lobby:
+    JoinGame:
+      Display-name: "&a&lJoin a Game!"
+      Lores:
+        - "&fClick to join a game!"
+        - "&fEdit this in ./plugins/BetterFortunePillars/items.yml"
+      Item: SLIME_BALL
+      Slot: 1
+      Command: /joingame
+      Permissions: BetterLab.Items.Lobby.JoinGame
+    SearchGame:
+      Display-name: "&e&lSearch a Game!"
+      Lores:
+        - "&fClick to Search for a game!"
+        - "&fEdit this in ./plugins/BetterFortunePillars/items.yml"
+      Item: COMPASS
+      Slot: 2
+      Command: /searchgame
+      Permissions: BetterLab.Items.Lobby.SearchGame
+    ProfileSettings:
+      Display-name: "&b&lProfileSettings"
+      Lores:
+        - "&fClick to open the Profile Settings"
+        - "&fEdit this in ./plugins/BetterFortunePillars/items.yml"
+      Item: COMPARATOR
+      Slot: 7
+      Command: /profilesettings
+      Permissions: BetterLab.Items.Lobby.ProfileSettings
+  GameLobby:
+    LeaveGame:
+      Display-name: "&c&lLeave the Game!"
+      Lores:
+        - "&fClick to leave the game!"
+        - "&fEdit this in ./plugins/BetterFortunePillars/items.yml"
+      Item: BARRIER
+      Slot: 1
+      Command: /leavegame
+      Permissions: BetterLab.Items.GameLobby.LeaveGame
+    ForceStartGame:
+      Display-name: "&e&lForce start a Game!"
+      Lores:
+        - "&fClick to ForceStart your current game!"
+        - "&fEdit this in ./plugins/BetterFortunePillars/items.yml"
+      Item: OAK_BOAT
+      Slot: 6
+      Command: /forcestart
+      Permissions: BetterLab.Items.GameLobby.ForceStartGame

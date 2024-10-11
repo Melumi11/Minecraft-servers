@@ -1,0 +1,105 @@
+#|||||  ||||| |||||| |||||| ||||| |||||   ||        ||     |||||
+#||  || ||      ||     ||   ||    ||  ||  ||       ||||    ||  ||
+#|||||  ||||    ||     ||   ||||  |||||   ||      ||  ||   |||||
+#||  || ||      ||     ||   ||    || ||   ||      ||||||   ||  ||
+#|||||  |||||   ||     ||   ||||| ||  ||  |||||  ||    ||  |||||
+#
+#
+#Pillars of the Fortune, a BetterLab Production!
+#Edit settings & much more in our setting files!
+#
+Games:
+  Unknow_GameID: '&cHey! A game with {gameid} does not exists!'
+  Not_In_Game: '&cHey! It seems like you''re not in a game! Join a game with &a/joingame'
+  Player_In_Game: '&cHey! It seems like you''re in a game!'
+  Game_Joining: '&aJoining Game...'
+  Left-Game: '&cYou left the game!'
+  Game_Joined: '&8[&7GameID: {gameid} &8]&r &a&lPillars of the Fortune &8- &7You''ve
+    joined the game!'
+  Game_Players_Needed: '&8[&7GameID: {gameid} &8]&r &7Current players: {playersingame}
+    / {maxplayers} &7Players needed to start: {minplayers}'
+  Game_Timer_Starting: '&eGame will start in {secondsleft} seconds!'
+  Game_canceled: '&cGame was canceled for {gameid} due to insufficient players!'
+  Game_Started: '&8[&7GameID: {gameid} &8]&r &a&lPillars of the Fortune &8- &7The game
+    has started!'
+  Game_Ended: '&8[&7GameID: {gameid} &8]&r &a&lPillars of the Fortune &8- &7{player}
+    &7Has won the game!'
+  Game_Timer: '&eThe game will end in {secondsleft} Seconds!'
+  Border_Timer: '&eThe border will close in {secondsleft} seconds!'
+  Game_Tie: '&8[&7GameID: {gameid}&8]&r &a&lPillars of the Fortune &8- &7The game has
+    tied!'
+  Force_Start: '&aForce Started the game!'
+  Force_Start_Failed: '&cYou do not have enough players in the game!'
+
+PlaceHolders:
+  betterlab_gametimer: '&cNo Game Found!'
+
+Errors:
+  No_Game_Spawn_Loc: '&cFailed to load spawn location for the game.'
+
+Commands:
+  Console: '&cYou need to be a player to use this command!'
+  No_Perms: '&cHey! It seems like you do not have permissions for this command!'
+  Set_Spawn: '&aSuccessfully set the spawnpoint to: x: {LocX}, y: {LocY}, z: {LocZ}'
+
+Addon:
+  DeathMessage: '{player} Died'
+  QuitMSG: '{player} Left the server!'
+  JoinMSG: '{player} Joined the server!'
+#The profile settings gui! Edit all messages easier in this section!
+#Placeholders that works in Stats:
+#{game_wins} - Game Wins
+#{games_joined} - Games Joined
+#{win_rate} - Win Rate
+#{kills} - Kills
+#{setting_deathmessage} - Returns Enabled/Disabled!
+#{setting_joinquitmessage} - Returns Enabled/Disabled!
+#{setting_gamemessage} - Returns Enabled/Disabled!
+
+ProfileSettings:
+  DisplayName: Profile Settings!
+  QuitMenu: '&c&lQuit Menu'
+  Enabled: Enabled
+  Disabled: Disabled
+  Stats:
+    Title: §bProfile Stats
+    Lores:
+    - '&7---==+==---'
+    - '&7Game Wins: {game_wins}'
+    - '&7Games Joined: {games_joined}'
+    - '&7WinRate: {win_rate}'
+    - '&7Kills: {kills}'
+    - '&7'
+    - '&7---==+==---'
+    - '&7Death Message Setting: {setting_deathmessage}'
+    - '&7Join/Quit Message Setting: {setting_joinquitmessage}'
+    - '&7Game Message Setting: {setting_gamemessage}'
+  
+  Settings:
+    DeathMessages:
+      Enabled_Title: §aDeath Messages! §7(Enabled)
+      Disabled_Title: §cDeath Messages! §7(Disabled)
+      Enabled_Lores:
+      - '&7Click to &cDisable &7The Death messages!'
+      - '&7Current state: &aEnabled&7!'
+      Disabled_Lores:
+      - '&7Click to &aEnable &7The Death messages!'
+      - '&7Current state: &cDisabled&7!'
+    JoinQuitmessages:
+      Enabled_Title: §aJoin/Quit Messages! §7(Enabled)
+      Disabled_Title: §cJoin/Quit Messages! §7(Disabled)
+      Enabled_Lores:
+      - '&7Click to &cDisable &7The Join/Quit messages!'
+      - '&7Current state: &aEnabled&7!'
+      Disabled_Lores:
+      - '&7Click to &aEnable &7The Join/Quit messages!'
+      - '&7Current state: &cDisabled&7!'
+    GameMessage:
+      Enabled_Title: §aGame Messages! §7(Enabled)
+      Disabled_Title: §cGame Messages! §7(Disabled)
+      Enabled_Lores:
+      - '&7Click to &cDisable &7The Game messages!'
+      - '&7Current state: &aEnabled&7!'
+      Disabled_Lores:
+      - '&7Click to &aEnable &7The Game messages!'
+      - '&7Current state: &cDisabled&7!'

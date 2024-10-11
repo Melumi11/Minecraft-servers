@@ -1,0 +1,146 @@
+name: ruins
+pauseCountdown: 60
+gameTime: 3600
+world: world
+pos1: 79.84521115940086;0.43331828698505437;-100.50969562987163;37.477337;-6.1212726
+pos2: -80.5270776555951;100.74002149857806;100.16302249200604;180.13965;23.73555
+specSpawn: -1.523186555842038;97.32049227308987;-1.0851252039010308;180.1402;29.16212
+lobbySpawn: 0.5130370975001224;139.0;-1.4081270676211481;-0.24989772;-2.818438
+lobbySpawnWorld: world
+minPlayers: 2
+postGameWaiting: 3
+teams:
+  RED:
+    isNewColor: true
+    color: RED
+    maxPlayers: 4
+    bed: -4.0;71.0;-64.0;0.0;0.0
+    spawn: 0.4810976542351789;72.0;-78.25864252699661;0.063964844;-4.3175793
+    actualName: RED
+  BLUE:
+    isNewColor: true
+    color: LIGHT_BLUE
+    maxPlayers: 4
+    bed: 4.0;71.0;64.0;0.0;0.0
+    spawn: 0.572241055928725;72.0;79.23931194044567;180.79706;-2.068902
+    actualName: BLUE
+spawners:
+- maxSpawnedResources: 48
+  hologramEnabled: true
+  location: 0.5317889028674644;71.5;82.5435024236408;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: iron
+- maxSpawnedResources: 8
+  hologramEnabled: true
+  location: 0.5317889028674644;71.5;82.5435024236408;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: gold
+- maxSpawnedResources: 8
+  hologramEnabled: true
+  location: -16.421704574511892;70.0;6.396953680103281;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: emerald
+- maxSpawnedResources: 12
+  hologramEnabled: true
+  location: -46.506188531842724;70.0;-9.535022987161978;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: diamond
+- maxSpawnedResources: 8
+  hologramEnabled: true
+  location: 17.627117685694913;70.0;-5.3588999728828615;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: emerald
+- maxSpawnedResources: 8
+  hologramEnabled: true
+  location: 47.49469104932725;70.0;10.538563928448635;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: diamond
+- maxSpawnedResources: 48
+  hologramEnabled: true
+  location: 0.5253746956200595;71.5;-81.61752581401907;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: iron
+- maxSpawnedResources: 8
+  hologramEnabled: true
+  location: 0.5253746956200595;71.5;-81.61752581401907;0.0;0.0
+  customName: null
+  startLevel: 1.0
+  team: null
+  type: gold
+stores:
+- isBaby: 'false'
+  loc: 6.547436058845296;72.0;79.9388175463898;90.076904;-0.8196775
+  parent: 'false'
+  shop: upgradeShop.yml
+  name: TeamUpgrades
+  skin: null
+  type: VILLAGER
+- isBaby: 'false'
+  loc: 6.699999988079051;72.0;-78.9840843674136;90.20361;-0.94460315
+  parent: 'false'
+  shop: shop.yml
+  name: Store
+  skin: null
+  type: VILLAGER
+- isBaby: 'false'
+  loc: -5.69999998807905;72.0;79.90174385149757;270.71765;-1.569216
+  parent: 'false'
+  shop: shop.yml
+  name: Store
+  skin: null
+  type: VILLAGER
+- isBaby: 'false'
+  loc: -5.4815907839524325;72.0;-79.01554070564097;269.06238;-0.32000464
+  parent: 'false'
+  shop: upgradeShop.yml
+  name: TeamUpgrades
+  skin: null
+  type: VILLAGER
+constant:
+  compass-enabled: inherit
+  add-wool-to-inventory-on-join: inherit
+  in-lobby-colored-leather-by-team: inherit
+  allow-crafting: inherit
+  join-randomly-after-lobby-timeout: inherit
+  join-randomly-on-lobby-join: inherit
+  keep-inventory-on-death: inherit
+  prevent-killing-villagers: inherit
+  player-drops: inherit
+  friendlyfire: inherit
+  lobbybossbar: inherit
+  bossbar: inherit
+  lobbyscoreboard: inherit
+  scoreboard: inherit
+  prevent-spawning-mobs: inherit
+  spawner-holograms: inherit
+  spawner-disable-merge: inherit
+  game-start-items: inherit
+  player-respawn-items: inherit
+  spawner-holograms-countdown: inherit
+  damage-when-player-is-not-in-arena: inherit
+  remove-unused-target-blocks: inherit
+  allow-block-falling: inherit
+  holo-above-bed: inherit
+  allow-spectator-join: inherit
+  anchor-auto-fill: inherit
+  anchor-decreasing: inherit
+  cake-target-block-eating: inherit
+  target-block-explosions: inherit
+arenaTime: WORLD
+arenaWeather: default
+lobbyBossBarColor: default
+gameBossBarColor: default

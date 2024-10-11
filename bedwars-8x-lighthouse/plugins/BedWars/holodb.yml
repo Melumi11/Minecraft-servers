@@ -1,0 +1,8 @@
+locations:
+- ==: org.bukkit.Location
+  world: world
+  x: 3.6999999880790693
+  y: 139.62
+  z: 3.6999999880790746
+  pitch: 52.77262
+  yaw: 333.2661

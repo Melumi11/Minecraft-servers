@@ -1,0 +1,141 @@
+data:
+  - stack: "IRON_SWORD;1;Sharpness;Kill players quicker!"
+    column: 1
+    price: 4 of diamond
+    properties: sharpness
+
+  - stack: "IRON_CHESTPLATE;1;Protection;Get more resistance to damage!"
+    column: 2
+    price: 2 of diamond
+    properties: protection
+
+  - stack: "GOLDEN_PICKAXE;1;Efficiency;Break blocks faster!"
+    price: 4 of diamond
+    column: 3
+    properties: efficiency
+
+  # - stack:
+  #     type: FURNACE
+  #     amount: 1
+  #     display-name: "Forge Upgrade"
+  - stack: "FURNACE;1;Forge Upgrade;Upgrade resource spawning on your island by +33%, up to +100%"
+    price: 2 of diamond
+    properties: 
+      name: forge
+      add-levels: 0.34
+      max-level: 2
+      type:
+        - iron
+        - gold
+
+  - stack: "BEACON;1;§bHeal Pool;§7Triggers a pool around the base that heals you!"
+    column: 5
+    row: 1
+    properties: healpool
+    price: 1 of diamond
+
+  - stack: "TRIPWIRE_HOOK;1;§bBlindess trap;§7Blind the foe and gain an upper advantage!"
+    column: 6
+    price: 1 of diamond
+    row: 1
+    properties: blindtrap
+
+  - stack: "IRON_PICKAXE;1;§bMining Fatigue trap;§7Slow down their mining and gain an advantage!"
+    column: 7
+    price: 2 of diamond
+    row: 1
+    properties: minertrap
+
+  - stack: "FEATHER;1;§bCounter-Offensive Trap;§7Add jump and regen to your team!"
+    column: 8
+    price: 1 of diamond
+    row: 1
+    properties:
+      name: trap
+      identifier: custom_trap_1
+      target: team
+      effects:
+        - type: jump_boost
+          duration: 600
+          level: 12
+        - type: regeneration
+          duration: 600
+          level: 2
+
+  # - stack: "LEATHER;1;Traps;Trap your enemy"
+  #   column: 7
+  #   items:
+  #     - price: 1 of diamond
+  #       skip: 1
+  #       properties: blindtrap
+  #       stack:
+  #         type: STRING
+  #         display-name: "§bBlindess trap"
+  #         lore:
+  #           - "§7Get informed when an enemy enters a 7 block radius of your base"
+  #           - "§7Blind the foe and gain an upper advantage!"
+
+  #     - price: 1 of diamond
+  #       skip: 1
+  #       properties: minertrap
+  #       stack:
+  #         type: STRING
+  #         display-name: "§bMining Fatigue trap"
+  #         lore:
+  #           - "§7Get informed when an enemy enters a 7 block radius of your base"
+  #           - "§7Slow Down their mining and gain an advantage!"
+
+  #     - price: 1 of diamond
+  #       skip: 1
+  #       properties:
+  #         name: trap
+  #         identifier: custom_trap_1
+  #         target: team
+  #         effects:
+  #           - type: jump_boost
+  #             duration: 600
+  #             level: 6
+  #           - type: regeneration
+  #             duration: 600
+  #             level: 2
+  #       stack:
+  #         type: STRING
+  #         display-name: "§bCustom trap"
+  #         lore:
+  #           - "§7Add jump and speed to your team when an enemy enters a 7 block radius of your base"
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 0
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 1
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 2
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 3
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 4
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 5
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 6
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 7
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 8

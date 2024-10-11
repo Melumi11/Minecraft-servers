@@ -1,0 +1,28 @@
+sign:
+- name: lighthouse
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 0.0
+    y: 142.0
+    z: 2.0
+    pitch: 0.0
+    yaw: 0.0
+- name: lighthouse
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 0.0
+    y: 142.0
+    z: 3.0
+    pitch: 0.0
+    yaw: 0.0
+- name: lighthouse
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: 0.0
+    y: 119.0
+    z: 5.0
+    pitch: 0.0
+    yaw: 0.0

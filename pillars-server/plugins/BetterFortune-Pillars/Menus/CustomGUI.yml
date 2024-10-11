@@ -1,0 +1,53 @@
+#|||||  ||||| |||||| |||||| ||||| |||||   ||        ||     |||||
+#||  || ||      ||     ||   ||    ||  ||  ||       ||||    ||  ||
+#|||||  ||||    ||     ||   ||||  |||||   ||      ||  ||   |||||
+#||  || ||      ||     ||   ||    || ||   ||      ||||||   ||  ||
+#|||||  |||||   ||     ||   ||||| ||  ||  |||||  ||    ||  |||||
+#
+#
+#Pillars of the Fortune, a BetterLab Production!
+#Edit settings & much more in our setting files!
+#
+
+GUI:
+  #Size (9, 18, 27, 36, 45, 54)
+  Size: 27
+  Gui-Display-Name: "&b&lCustom Gui"
+  #Do not use the same GUI-ID for multiple guis, this will cause issues!
+  GUI-ID: "CustomGui"
+
+Items:
+  STONE:
+    Display-Name: "&b&lStone"
+    Lores:
+      - "&fCustom Stone!"
+      - "&fClick to use the /help command!"
+    Slot: 1
+    Item: STONE
+    Action:
+      Type: COMMAND
+      Sender: PLAYER
+      Command: /help
+  STONE_EXTRA:
+    Display-Name: "&b&lStone EXTRA"
+    Lores:
+      - "&fCustom Stone!"
+      - "&fClick to use the /help command!"
+    Slot: 2
+    Item: STONE
+    Action:
+      #Type: NONE? We skip this item event!
+      Type: NONE
+      Sender: PLAYER
+      Command: /help
+  DIRT:
+    Display-Name: "&b&lFree Dirt"
+    Lores:
+      - "&fFree Dirt"
+      - "&fClick to get free dirt!"
+    Slot: 3
+    Item: DIRT
+    Action:
+      Type: COMMAND
+      Sender: CONSOLE
+      Command: /give {player} dirt 1

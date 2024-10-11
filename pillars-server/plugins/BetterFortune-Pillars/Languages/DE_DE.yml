@@ -1,0 +1,97 @@
+#|||||  ||||| |||||| |||||| ||||| |||||   ||        ||     |||||
+#||  || ||      ||     ||   ||    ||  ||  ||       ||||    ||  ||
+#|||||  ||||    ||     ||   ||||  |||||   ||      ||  ||   |||||
+#||  || ||      ||     ||   ||    || ||   ||      ||||||   ||  ||
+#|||||  |||||   ||     ||   ||||| ||  ||  |||||  ||    ||  |||||
+#
+#
+#Pillars of the Fortune, eine BetterLab Produktion!
+#Einstellungen bearbeiten und vieles mehr in unseren Einstellungsdateien!
+#
+Games:
+  Unknow_GameID: "&cHey! Ein Spiel mit {gameid} existiert nicht!"
+  Not_In_Game: "&cHey! Es scheint, als wärst du nicht in einem Spiel! Tritt einem Spiel bei mit &a/joingame"
+  Player_In_Game: "&cHey! Es scheint, als wärst du bereits in einem Spiel!"
+  Game_Joining: "&aSpiel wird beigetreten..."
+  Left-Game: "&cYou left the game!"
+  Game_Joined: "&8[&7SpielID: {gameid} &8]&r &a&lPillars of the Fortune &8- &7Du bist dem Spiel beigetreten!"
+  Game_Players_Needed: "&8[&7SpielID: {gameid} &8]&r &7Aktuelle Spieler: {playersingame} / {maxplayers} &7Benötigte Spieler zum Start: {minplayers}"
+  Game_Timer_Starting: "&eSpiel beginnt in {secondsleft} Sekunden!"
+  Game_canceled: "&cSpiel wurde für {gameid} aufgrund unzureichender Spielerzahl abgesagt!"
+  Game_Started: "&8[&7SpielID: {gameid} &8]&r &a&lPillars of the Fortune &8- &7Das Spiel hat begonnen!"
+  Game_Ended: "&8[&7SpielID: {gameid} &8]&r &a&lPillars of the Fortune &8- &7{player} &7hat das Spiel gewonnen!"
+  Game_Timer: "&eDas Spiel endet in {secondsleft} Sekunden!"
+  Border_Timer: "&eThe border will close in {secondsleft} seconds!"
+  Game_Tie: "&8[&7SpielID: {gameid}&8]&r &a&lPillars of the Fortune &8- &7Das Spiel endete unentschieden!"
+  Force_Start: "&aSpiel wurde erzwungen gestartet!"
+  Force_Start_Failed: "&cDu hast nicht genügend Spieler im Spiel!"
+
+Errors:
+  No_Game_Spawn_Loc: "&cFehler beim Laden des Spawn-Ortes für das Spiel."
+
+Commands:
+  Console: "&cDu musst ein Spieler sein, um diesen Befehl zu verwenden!"
+  No_Perms: "&cHey! Es scheint, als hättest du keine Berechtigung für diesen Befehl!"
+  Set_Spawn: "&aSuccessfully set the spawnpoint to: x: {LocX}, y: {LocY}, z: {LocZ}"
+
+Addon:
+  DeathMessage: "{player} ist gestorben"
+  QuitMSG: "{player} hat den Server verlassen!"
+  JoinMSG: "{player} hat den Server betreten!"
+#Das Profil-Einstellungs-GUI! Bearbeite alle Nachrichten einfacher in diesem Abschnitt!
+#Platzhalter, die in Statistiken funktionieren:
+#{game_wins} - Spielgewinne
+#{games_joined} - Beigetretene Spiele
+#{win_rate} - Gewinnrate
+#{kills} - Kills
+#{setting_deathmessage} - Gibt Aktiviert/Deaktiviert zurück!
+#{setting_joinquitmessage} - Gibt Aktiviert/Deaktiviert zurück!
+#{setting_gamemessage} - Gibt Aktiviert/Deaktiviert zurück!
+
+ProfileSettings:
+  DisplayName: "Profil Einstellungen!"
+  QuitMenu: "&c&lMenü Beenden"
+  Enabled: "Aktiviert"
+  Disabled: "Deaktiviert"
+  Stats:
+    Title: "§bProfil Statistiken"
+    Lores:
+      - "&7---==+==---"
+      - "&7Spielgewinne: {game_wins}"
+      - "&7Beigetretene Spiele: {games_joined}"
+      - "&7Gewinnrate: {win_rate}"
+      - "&7Kills: {kills}"
+      - "&7"
+      - "&7---==+==---"
+      - "&7Einstellung Todesnachrichten: {setting_deathmessage}"
+      - "&7Einstellung Betreten/Verlassen Nachrichten: {setting_joinquitmessage}"
+      - "&7Einstellung Spielnachrichten: {setting_gamemessage}"
+
+  Settings:
+    DeathMessages:
+      Enabled_Title: "§aTodesnachrichten! §7(Aktiviert)"
+      Disabled_Title: "§cTodesnachrichten! §7(Deaktiviert)"
+      Enabled_Lores:
+        - "&7Klicken, um die &cTodesnachrichten &7zu deaktivieren!"
+        - "&7Aktueller Status: &aAktiviert&7!"
+      Disabled_Lores:
+        - "&7Klicken, um die &aTodesnachrichten &7zu aktivieren!"
+        - "&7Aktueller Status: &cDeaktiviert&7!"
+    JoinQuitmessages:
+      Enabled_Title: "§aBetreten/Verlassen Nachrichten! §7(Aktiviert)"
+      Disabled_Title: "§cBetreten/Verlassen Nachrichten! §7(Deaktiviert)"
+      Enabled_Lores:
+        - "&7Klicken, um die &cBetreten/Verlassen Nachrichten &7zu deaktivieren!"
+        - "&7Aktueller Status: &aAktiviert&7!"
+      Disabled_Lores:
+        - "&7Klicken, um die &aBetreten/Verlassen Nachrichten &7zu aktivieren!"
+        - "&7Aktueller Status: &cDeaktiviert&7!"
+    GameMessage:
+      Enabled_Title: "§aSpielnachrichten! §7(Aktiviert)"
+      Disabled_Title: "§cSpielnachrichten! §7(Deaktiviert)"
+      Enabled_Lores:
+        - "&7Klicken, um die &cSpielnachrichten &7zu deaktivieren!"
+        - "&7Aktueller Status: &aAktiviert&7!"
+      Disabled_Lores:
+        - "&7Klicken, um die &aSpielnachrichten &7zu aktivieren!"
+        - "&7Aktueller Status: &cDeaktiviert&7!"
