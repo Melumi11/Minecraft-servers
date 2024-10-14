@@ -43,7 +43,8 @@ __Resources:__
 - Emeralds spawn 1 per minute 
 
 __Shop:__
-- Fireballs aren't as accurate (sniping is impossible)
+- Fireballs travel slowly and aren't accurate (I can't change this)
+- Fireballs flight direction is slightly random (sniping is impossible)
 - Fireball jumping is different
   - Fireballing straight down sends you extremely high
   - I tried tweaking this for a long time to make it similar to Hypixel
