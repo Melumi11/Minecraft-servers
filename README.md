@@ -4,24 +4,32 @@
 
 ## Index
 - [How to Use](#how-to-use)
-- [Bedwars Differences](#differences-between-my-bedwars-and-hypixel-bedwars)
-- [Ballwars Differences](#differences-between-my-bedwars-and-ballwars)
+- [Bedwars](#bedwars)
+  - [Differences between My Bedwars and Hypixel Bedwars](#differences-between-my-bedwars-and-hypixel-bedwars)
+- [Ballwars](#ballwars)
+  - [Differences between My Bedwars and Ballwars](#differences-between-my-bedwars-and-ballwars)
+  - [Ballwars Strategies](#ballwars-strategies)
+- [Pillars of Fortune](#pillars-of-fortune)
+- [Party Games](#party-games)
 
 ## How to Use
-- Download one of the folders. Each one contains a different server.
-- Edit the run.sh file such that it points to your Java installation.
+- Download one of the folders. Each one contains a different server
+- Edit the run.sh file such that it points to your Java installation
 - Download a server.jar
   - Any spigot-based server works but I use [Paper](https://papermc.io/) for my servers
   - I use [paper-1.8.8](https://papermc.io/downloads/all) for my bedwars and ballwars servers
-- Rename the file to server.jar and place it into the server folder.
+- Rename the file to server.jar and place it into the server folder
 - Run run.sh
+- Note: I set my servers to use a different port than normal. Some servers include a whitelist plugin and are configured to run in <ins>offline mode<ins>
 
-## Differences between My Bedwars and Hypixel Bedwars:
-I tried to make it as close to normal bedwars as possible
+## Bedwars
+My Bedwars servers use [Screaming Bedwars](https://www.spigotmc.org/resources/screaming-bedwars-1-8-8-1-21-1.63714/) ([github](https://github.com/ScreamingSandals/BedWars)) and [Screaming Bedwars Addons](https://www.spigotmc.org/resources/sba-screaming-bedwars-addon-1-8-8-1-21-1.99149/) ([github](https://github.com/boiscljo/SBA)), with config changes to make it as close to normal bedwars as possible.
+
+### Differences between My Bedwars and Hypixel Bedwars:
 - Click the sign to join the game, or type `/bw join` (`/bedwars join`)
 - The server has one map/one game at a time
 - There is no sudden death 
-- Bots can be added but they're practically useless
+- Bots can be added but they're practically useless (`/sba ai join` in lobby)
 
 __Maps:__
 - Ruins (2 islands)
@@ -55,9 +63,28 @@ __Team Upgrade Shop:__
 - Mining fatigue trap costs 2 diamonds for balance
 - Counter-offense trap gives jump boost and regen
 
-## Differences between My Bedwars and Ballwars
+## Ballwars
+Ballwars is a fun Bedwars variant where the rules and mechanics are the same, but fireballs and bridge eggs are cheap. My friends and I came up with this, and it's surprisingly fun.
+
+### Differences between My Bedwars and Ballwars
 - Iron spawns 1 every 2 seconds (instead of every second)
 - Fireballs cost 3 iron (instead of 40 iron)
 - Bridge eggs cost 6 gold (instead of 1 emerald)
-- Glass costs 2 gold for 4 glass
-  - It is recommended to cover your bed using 4 gold (8 glass)
+- Glass costs 2 gold for 4 glass (instead of 12 iron)
+
+### Ballwars Strategies
+- You can cover your bed using 8 glass for 4 gold. This is the only fireball-proof bed defense besides obsidian due to fireballs behaving identically to tnt
+- Double-fireball-jumping by rapidly throwing 2 fireballs downwards can allow you to clear the gap between a base and the diamond island in a single jump
+  - This means that teams can attack extremely early in the game
+- Creating a jumping platform using ~5 blocks can let you clear the gap between islands easily with one fireball
+- Bridge eggs can be used to easily reach the emerald islands
+- Bridge eggs can be used to block fireballs when attacking
+- Upgrading Forge with diamonds can allow you to stock up on bridge eggs and fireballs
+
+## Pillars of Fortune
+- Server for the minigame Pillars of Fortune
+- See https://www.spigotmc.org/resources/moonpillars.116071/
+
+## Party Games
+- Server that I use to test my Party Games plugin
+- See https://github.com/Melumi11/Party-Games for detailed documentation
